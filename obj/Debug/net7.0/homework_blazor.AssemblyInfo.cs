@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("homework_blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+780cfba68da4991b572a36e3315ee0e0037a5b8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("homework_blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("homework_blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
