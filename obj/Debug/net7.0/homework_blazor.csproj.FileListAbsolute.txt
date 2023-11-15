@@ -29,3 +29,4 @@ C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\obj\Debug\net7.0\refint\h
 C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\obj\Debug\net7.0\homework_blazor.pdb
 C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\obj\Debug\net7.0\homework_blazor.genruntimeconfig.cache
 C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\obj\Debug\net7.0\ref\homework_blazor.dll
+C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\obj\Debug\net7.0\homework_blazor.sourcelink.json
