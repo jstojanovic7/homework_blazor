@@ -1,7 +1,7 @@
-@page "/Ifelseif"
+@page "/02and03-middle2ways"
 
 
-<h1>Element at middle (if else if)</h1>
+<h1>Element at middle (if else if and nested if)</h1>
 <p>
 You can try to enter integers, real numbers and texts that are not numbers at all.
 </p>
@@ -21,7 +21,8 @@ You can try to enter integers, real numbers and texts that are not numbers at al
     <tr>
         
         <td style="text-align:center" colspan="2">
-            <button @onclick="Middle">Determine Middle</button> &nbsp; 
+            <button @onclick="MiddleIfElseIF">Determine Middle</button> &nbsp;
+            <button @onclick="MiddleNestedIf">Determine Middle</button> &nbsp;  
         
         </td>
        
@@ -40,7 +41,7 @@ You can try to enter integers, real numbers and texts that are not numbers at al
     private double z = 1.5;
     private double result;
 
-    private void Middle()
+    private void MiddleIfElseIF()
     {
          result = x;
     if (x <= y && y <= z) {
@@ -58,4 +59,45 @@ You can try to enter integers, real numbers and texts that are not numbers at al
     }
 
    }
+
+   private void MiddleNestedIf()
+    {
+    result = x;
+    if (x <= y)
+    {
+        if (y <= z)
+        {
+            result = y;
+        }
+        else
+        {
+            if (x <= z)
+            {
+                result = z;
+            }
+            else
+            {
+                result = x;
+            }
+        }
+    }
+    else
+    {
+        if (y <= z)
+        {
+            if (x <= z)
+            {
+                result = x;
+            }
+            else
+            {
+                result = z;
+            }
+        }
+        else
+        {
+            result = y;
+        }
+    }
+}
 }

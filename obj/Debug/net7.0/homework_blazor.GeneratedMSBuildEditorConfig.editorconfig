@@ -26,6 +26,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNydW5cVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/01-sum1tonifwhile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDEtc3VtMXRvbmlmd2hpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/02and03-middle2ways.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDJhbmQwMy1taWRkbGUyd2F5cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/04-sum1tondowhile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQtc3VtMXRvbmRvd2hpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/05-DoubleFactorialDecreasing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUtRG91YmxlRmFjdG9yaWFsRGVjcmVhc2luZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/06-FunctionDoubleFactorialDecreasing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYtRnVuY3Rpb25Eb3VibGVGYWN0b3JpYWxEZWNyZWFzaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/07-Maximum.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDctTWF4aW11bS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,20 +58,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/Ifelseif.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWZlbHNlaWYucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/Nestedif.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmVzdGVkaWYucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/Sum1ton.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtMXRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/Pages/Todo.razor]

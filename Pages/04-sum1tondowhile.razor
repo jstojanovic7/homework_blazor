@@ -1,7 +1,7 @@
-﻿@page "/Sum1ton"
+@page "/04-sum1tondowhile"
 
-<PageTitle>Sum from 1 to n</PageTitle>
-<h1>Sum from 1 to n in 3 ways</h1>
+<PageTitle>Sum 1 to n with dowhile</PageTitle>
+<h1>Sum 1 to n with dowhile</h1>
 <br/>
 <table>
     <tr>
@@ -12,13 +12,13 @@
     </tr>
     <tr>
         <td style="text-align:center" colspan="2">
-            <button title="by forward counting" @onclick="FactorialByCountForward">Sum 1-n</button> &nbsp; 
-            <button title="by backward counting" @onclick="FactorialByCountBackward">Sum 1-n</button> &nbsp; 
-            <button title="by decrementing" @onclick="FactorialByDecrementing">Sum1-n</button> &nbsp; 
+            <button title="by forward counting" @onclick="SumByCountForward">Sum</button> &nbsp; 
+            <button title="by backward counting" @onclick="SumByCountBackward">Sum</button> &nbsp; 
+            <button title="by decrementing" @onclick="SumByDecrementing">Sum</button> &nbsp; 
         </td>
     </tr>
     <tr>
-        <td style="text-align:right">@num +:</td>
+        <td>@num !:</td>
         <td><input style="text-align:right" @bind="result"/></td>
     </tr>
  </table> 
@@ -30,9 +30,9 @@
 
     private long result = 1;
 
-    private void FactorialByCountForward()
+    private void SumByCountForward()
     {
-        Console.WriteLine("FactorialByCountForward");
+        Console.WriteLine("SumByCountForward");
         int n = num;
         Console.WriteLine("Argument: " + n);
         if(n<0)
@@ -43,19 +43,20 @@
         }
         int i = 1;
         long fakt = 0;
-        while (i <= n)
+        do
         {
             fakt = fakt + i;
             i++; // i += 1; // i = i +1;
         }
+        while (i <= n);
         result = fakt;
         System.Console.WriteLine("Result: " + result);
         System.Console.WriteLine();
     }
 
-    private void FactorialByCountBackward()
+    private void SumByCountBackward()
     {
-        Console.WriteLine("FactorialByCountBackward");
+        Console.WriteLine("SumByCountBackward");
         int n = num;
         Console.WriteLine("Argument: " + n);
         if (n < 0)
@@ -66,19 +67,20 @@
         }
         int i = n;
         long fakt = 0;
-        while (i >= 1)
+        do
         {
             fakt += i; // fakt = fakt + i;
             i--;
         }
+        while (i >= 1);
         result = fakt;
         System.Console.WriteLine("Result: " + result);
         System.Console.WriteLine();
     }
 
-    private void FactorialByDecrementing()
+    private void SumByDecrementing()
     {
-        Console.WriteLine("FactorialByDecrementing");
+        Console.WriteLine("SumByDecrementing");
         int n = num;
         Console.WriteLine("Argument: " + n);
         if (n < 0)
@@ -88,11 +90,12 @@
             return;
         }
         long fakt = 0;
-        while (n>0)
+        do
         {
             fakt += n; 
             n--;
         }
+        while (n>0);
         result = fakt;
         System.Console.WriteLine("Result: " + result);
         System.Console.WriteLine();
