@@ -1,0 +1,50 @@
+@page "/01Array"
+
+@using DSS.Helpers
+@using System.Linq
+
+<PageTitle>Arrays - Closest and Farthest from avg</PageTitle>
+<h1>Arrays - Closest and Farthest from avg</h1>
+
+<div>
+    <label for="inputArray">Enter Array Elements (comma-separated):</label>
+    <input id="inputArray" @bind="inputArrayString" />
+    <button @onclick="Execute">Do It!</button>
+</div>
+
+<br />
+Output:
+<br />
+<div style="border: solid; border-color: black">
+    <pre>@message</pre>
+</div>
+
+@code {
+    private string inputArrayString = "";
+    private string message = "";
+
+    private void Execute()
+    {
+        
+        double[] inputArray = inputArrayString
+            .Split(',')
+            .Select(s => double.Parse(s.Trim()))
+            .ToArray();
+
+        
+        if (inputArray.Length == 0)
+        {
+            message = "Array cannot be empty.";
+            return;
+        }
+
+        message = "Input Array: " + ArrayDomaci.ElementsToString(inputArray) + Environment.NewLine;
+
+        int closestIndex = ArrayDomaci.IndexOfClosestToAvg(inputArray);
+        int farthestIndex = ArrayDomaci.IndexOfFarthestFromAvg(inputArray);
+
+        message += "" + ArrayDomaci.IndexOfClosestToAvg(inputArray) + Environment.NewLine;
+        message += "" + ArrayDomaci.IndexOfFarthestFromAvg(inputArray) + Environment.NewLine;
+
+    }
+}

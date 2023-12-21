@@ -2021,11 +2021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\01a-simple-bootstrap.csproj",
+      "projectUniqueName": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\02-domaci\\01a-simple-bootstrap.csproj",
       "projectName": "01a-simple-bootstrap",
-      "projectPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\01a-simple-bootstrap.csproj",
+      "projectPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\02-domaci\\01a-simple-bootstrap.csproj",
       "packagesPath": "C:\\Users\\Jelena Mitic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\obj\\",
+      "outputPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\02-domaci\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jelena Mitic\\AppData\\Roaming\\NuGet\\NuGet.Config"

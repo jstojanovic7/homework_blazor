@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D7W2s+zRyZhyNbX6lc7zHIbedm9XxEBgGc+AZMijRMai1oERYiti9OROZZ2bzOHVFs2GOWW5FsuvVX5NI86jSQ==",
+  "dgSpecHash": "L+H709BTN2AEu5is/biHU16UWqaoKuT4wnbdcvzS/69uGuoa4GZ1/T3opJK2Ld5ouEomkoS+AFbPZoS83U9tzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\homework_blazor.csproj",
+  "projectFilePath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\01-domaci\\homework_blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jelena Mitic\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\Jelena Mitic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",

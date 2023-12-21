@@ -1,0 +1,227 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorApp1.Client
+build_property.RootNamespace = BlazorApp1.Client
+build_property.ProjectDir = C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\03-domaci\01-simple\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Jelena Mitic\Documents\GitHub\homework_blazor\03-domaci\01-simple
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0101HelloWorld.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDEwMUhlbGxvV29ybGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0102HelloMultiLine.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDEwMkhlbGxvTXVsdGlMaW5lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0103Sequence.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDEwM1NlcXVlbmNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0104Comments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDEwNENvbW1lbnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0105InputOutput.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDEwNUlucHV0T3V0cHV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0201IntVariables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwMUludFZhcmlhYmxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0202aIntOperators.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwMmFJbnRPcGVyYXRvcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0202IntOperators.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwMkludE9wZXJhdG9ycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0203ByteShortLongVariables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwM0J5dGVTaG9ydExvbmdWYXJpYWJsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0204DoubleFloatVariables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwNERvdWJsZUZsb2F0VmFyaWFibGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0205CharVariables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwNUNoYXJWYXJpYWJsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0206BoolVariables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDIwNkJvb2xWYXJpYWJsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0301IfBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwMUlmQnJhbmNoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0301zIfBranchMiddle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwMXpJZkJyYW5jaE1pZGRsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0302aIfElseBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwMmFJZkVsc2VCcmFuY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0302bIfElseBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwMmJJZkVsc2VCcmFuY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0302IfElseBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwMklmRWxzZUJyYW5jaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0303aIfElseBranchGuessing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwM2FJZkVsc2VCcmFuY2hHdWVzc2luZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0303IfElseBranchGuessing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwM0lmRWxzZUJyYW5jaEd1ZXNzaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0304aSwitchBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwNGFTd2l0Y2hCcmFuY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0304SwitchBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwNFN3aXRjaEJyYW5jaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0305SwitchStringSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwNVN3aXRjaFN0cmluZ1NlbGVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0306SwitchMultiSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDMwNlN3aXRjaE11bHRpU2VsZWN0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0401WhileLoopFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwMVdoaWxlTG9vcEZhY3RvcmlhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0402WhileLoopPower.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwMldoaWxlTG9vcFBvd2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0403DoWhileLoopFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwM0RvV2hpbGVMb29wRmFjdG9yaWFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0404aLoopDoubleFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwNGFMb29wRG91YmxlRmFjdG9yaWFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0404DoWhileLoopPower.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwNERvV2hpbGVMb29wUG93ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0405ForLoopFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwNUZvckxvb3BGYWN0b3JpYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0406ForLoopPower.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDQwNkZvckxvb3BQb3dlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0501FunctionFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUwMUZ1bmN0aW9uRmFjdG9yaWFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0502aFunctionGuessing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUwMmFGdW5jdGlvbkd1ZXNzaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0502bFunctionDoubleFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUwMmJGdW5jdGlvbkRvdWJsZUZhY3RvcmlhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0502FunctionPower.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUwMkZ1bmN0aW9uUG93ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0503aModuleNamespaceDoubleFactoriel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUwM2FNb2R1bGVOYW1lc3BhY2VEb3VibGVGYWN0b3JpZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0503ModuleNamespacePower.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDUwM01vZHVsZU5hbWVzcGFjZVBvd2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0601ArrayIndexing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwMUFycmF5SW5kZXhpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0602ArrayIteration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwMkFycmF5SXRlcmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0603ArrayIterationFunction.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwM0FycmF5SXRlcmF0aW9uRnVuY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0604ArrayIterationModule.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwNEFycmF5SXRlcmF0aW9uTW9kdWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0605ArrayMinMax.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwNUFycmF5TWluTWF4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0606ArrayMinimum.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwNkFycmF5TWluaW11bS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0607ArrayMinMaxModule.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDYwN0FycmF5TWluTWF4TW9kdWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0701ActorsShow.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDcwMUFjdG9yc1Nob3cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0702ActorsShowModule.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDcwMkFjdG9yc1Nob3dNb2R1bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Pages/0703ActorsAddressShow.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMDcwM0FjdG9yc0FkZHJlc3NTaG93LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-vl67njl5c1
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s8xsnq6cv2
+
+[C:/Users/Jelena Mitic/Documents/GitHub/homework_blazor/03-domaci/01-simple/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-aw7s1uks9t

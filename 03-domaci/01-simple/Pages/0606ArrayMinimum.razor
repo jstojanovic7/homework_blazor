@@ -1,0 +1,56 @@
+@page "/0606ArrayMinimum"
+
+<h1>Minimum</h1>
+<p>
+Enter several integers, divided by exactly one space character.
+</p>
+<table>
+    <tr>
+        <td>Array:</td>
+        <td><input style="text-align:right" @bind="numbers"/></td>
+    </tr>
+    <tr>
+        <td style="text-align:center" colspan="2">
+            <button @onclick="Minimum">Determine Minimum</button>  
+        </td>
+    </tr>
+    <tr>
+        <td>Minimum:</td>
+        <td>@min</td>
+    </tr>
+</table>
+
+@code{
+    private String numbers = "1.2 23.5 -4.75 -3 7";
+    private double min = 0;
+
+    private double[] ArrayFromText(String s)
+    {
+        String[] elements = s.Split();
+        double[] nums = new double[elements.Length];
+        for(int i=0; i< nums.Length; i++)
+            nums[i] = double.Parse(elements[i]);
+        return nums;
+    }
+
+    private int PositionOfMinimum(double[] array)
+    {
+        int posMin = 0;
+        for(int i=1; i<array.Length; i++)
+            if(array[i] < array[posMin])
+                posMin = i;
+        return posMin;
+    }
+
+    private void Minimum()
+    {
+        double[] nums = ArrayFromText(numbers);
+        Console.Write("nums:");    
+        for(int i=0; i< nums.Length; i++)
+            Console.Write(nums[i] + ":");
+        Console.WriteLine();
+        int pos = PositionOfMinimum(nums);
+        min = nums[pos];    
+    }
+}
+

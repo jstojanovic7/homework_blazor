@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\homework_blazor.csproj": {}
+    "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\01-domaci\\homework_blazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\homework_blazor.csproj": {
+    "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\01-domaci\\homework_blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\homework_blazor.csproj",
+        "projectUniqueName": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\01-domaci\\homework_blazor.csproj",
         "projectName": "homework_blazor",
-        "projectPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\homework_blazor.csproj",
+        "projectPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\01-domaci\\homework_blazor.csproj",
         "packagesPath": "C:\\Users\\Jelena Mitic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\obj\\",
+        "outputPath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\01-domaci\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jelena Mitic\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qyzgkD3cW0vDAYoEUevmjUObuSLoE97eq6cbvIRoPyL7wrWvNGlC+4V8ZRY6N4H/NH2tevHVnKREv3bt8JtCMQ==",
+  "dgSpecHash": "+kSJUdDE3AgDXt+CVWGp6daou9ibnngAWHHyDw+xUkuwmNvyKUzm8E3c8VK+IaHJwH6XSUg7widDpVvdKoxPbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\01a-simple-bootstrap.csproj",
+  "projectFilePath": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\homework_blazor\\02-domaci\\01a-simple-bootstrap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jelena Mitic\\.nuget\\packages\\blazor.bootstrap\\1.9.1\\blazor.bootstrap.1.9.1.nupkg.sha512",
     "C:\\Users\\Jelena Mitic\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
