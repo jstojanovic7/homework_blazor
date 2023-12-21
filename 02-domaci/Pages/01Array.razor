@@ -43,8 +43,11 @@ Output:
         int closestIndex = ArrayDomaci.IndexOfClosestToAvg(inputArray);
         int farthestIndex = ArrayDomaci.IndexOfFarthestFromAvg(inputArray);
 
-        message += "" + ArrayDomaci.IndexOfClosestToAvg(inputArray) + Environment.NewLine;
-        message += "" + ArrayDomaci.IndexOfFarthestFromAvg(inputArray) + Environment.NewLine;
+        double closestElement = inputArray[closestIndex];
+        double farthestElement = inputArray[farthestIndex];        
+
+        message += "" + closestElement + Environment.NewLine;
+        message += "" + farthestElement + Environment.NewLine;
 
     }
 }
