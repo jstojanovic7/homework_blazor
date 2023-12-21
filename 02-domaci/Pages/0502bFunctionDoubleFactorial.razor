@@ -1,0 +1,49 @@
+﻿@page "/0502bFunctionDoubleFactorial"
+
+<h1>Double facorial</h1>
+<br/>
+<table>
+    <tr>
+        <td>Number:</td>
+        <td>
+            <input style="text-align:right" @bind="number"/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:center" colspan="2">
+            <button title="double factorial" @onclick="CalculateDoubleFactorial">!!</button>
+        </td>
+    </tr>
+    <tr>
+        <td>@number!!&nbsp;=&nbsp;</td>
+        <td><input style="text-align:right" @bind="result"/></td>
+    </tr>
+ </table> 
+<br/>
+
+@code {
+
+    private int number = 5;
+
+    private double result = 1;
+
+    private double DFakt(int num){
+        if (num <= 0)
+            return -1;
+        double r = 1;
+        if( num%2 == 0)   
+            for(int i=2; i<= num; i+=2)
+                r *= i;
+        else
+            for(int i=1; i<= num; i+=2)
+                r *= i;
+        return r;
+    }
+
+    private void CalculateDoubleFactorial()
+    {
+        result = DFakt(number);
+    }
+
+
+}

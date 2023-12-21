@@ -1,0 +1,22 @@
+﻿@page "/0202aIntOperators"
+
+<!--<PageTitle>Hello World</PageTitle> -->
+<h1>Hello world</h1>
+<br />
+<pre>@message</pre>
+
+@code {
+    private string message = "Miki Maus";
+
+    protected override async Task OnInitializedAsync()
+    {
+        int i = 2;
+        int j = 13;
+        message = "" + (j / i) + Environment.NewLine;
+        int k1 = i * (j++);
+        int k2 = i * (++j);
+        message = "" + k1 + " " + k2 + Environment.NewLine;
+        await Task.Run(() => message = message + "");
+    }
+
+}

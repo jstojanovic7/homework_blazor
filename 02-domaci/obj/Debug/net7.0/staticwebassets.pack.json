@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\obj\\Debug\\net7.0\\compressed\\5vuysg85zq.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\obj\\Debug\\net7.0\\scopedcss\\bundle\\01a-simple-bootstrap.styles.css",
+      "PackagePath": "staticwebassets\\01a-simple-bootstrap.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\wwwroot\\images\\logo\\logo-white.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Jelena Mitic\\Documents\\GitHub\\profblazor\\blazor\\01-simple\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.01a-simple-bootstrap.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.01a-simple-bootstrap.props",
+      "PackagePath": "build\\01a-simple-bootstrap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.01a-simple-bootstrap.props",
+      "PackagePath": "buildMultiTargeting\\01a-simple-bootstrap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.01a-simple-bootstrap.props",
+      "PackagePath": "buildTransitive\\01a-simple-bootstrap.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
