@@ -39,55 +39,142 @@
                 <td>@ms.YearLevel</td>
                 <td>@ms.ThesisTopic</td>
                 <td>@ms.Advisor</td>
+                <td><button @onclick="() => ShowElectiveSubjectsAndGrades(ms)">Show Elective Subjects and Grades</button></td>
             </tr>
         }
     </tbody>
 </table>
 
-@message
+@if (selectedStudent != null)
+{
+    <div>
+        <h2>Elective Subjects and Grades for @selectedStudent.FirstName @selectedStudent.LastName</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject Name</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var grade in selectedStudent.ElectiveGrades)
+                {
+                    <tr>
+                        <td>@grade.Subject.SubjectName</td>
+                        <td>@grade.Score</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
 
 @code {
 
     private string message = "";
-
     private MasterStudent[] studentCrew = new MasterStudent[3];
+    private MasterStudent selectedStudent;
 
     protected override async Task OnInitializedAsync()
     {
         studentCrew[0] = new MasterStudent()
+{
+    FirstName = "Jovan",
+    LastName = "Stojanovic",
+    Gender = Gender.Male,
+    StudentId = 1,
+    Studies = "Business Informatics",
+    YearLevel = 1,
+    Address = new PostalAddress()
+    {
+        Street = "Vatroslava Lisinskog 8",
+        City = "Belgrade",
+        PostalCode = "11000",
+        State = "Serbia"
+    },
+    ThesisTopic = "AI in recruiting",
+    Advisor = "Dr. Smart",
+    ElectiveGrades = new List<Grade>
+    {
+        new Grade
         {
-            FirstName = "Jovan",
-            LastName = "Stojanovic",
-            StudentId = 1,
-            Studies = "Business Informatics",
-            Address = new PostalAddress()
-            {
-                Street = "Sunset Boulevard 34"
-            }
-        };
-        studentCrew[1] = new MasterStudent()
+            Subject = new ElectiveSubject { SubjectName = "Big Data Analytics" },
+            Score = 100
+        },
+        new Grade
         {
-            FirstName = "Rastko",
-            LastName = "Bojovic",
-            StudentId = 2,
-            Studies = "Business Informatics",
-            Address = new PostalAddress()
-            {
-                Street = "Sunset Boulevard 34"
-            }
-        };
-        studentCrew[2] = new MasterStudent()
-        {
-            FirstName = "Aleksandra",
-            LastName = "Antonijevic",
-            StudentId = 3,
-            Studies = "Business Informatics",
-            Address = new PostalAddress()
-            {
-                Street = "Sunset Boulevard 34"
-            }
-        };
-
+            Subject = new ElectiveSubject { SubjectName = "IT Project Management" },
+            Score = 95
+        }
     }
-
+};
+        studentCrew[1] = new MasterStudent()
+{
+    FirstName = "Jelena",
+    LastName = "Mitic",
+    Gender = Gender.Female,
+    StudentId = 2,
+    Studies = "Art History",
+    YearLevel = 2,
+    Address = new PostalAddress()
+    {
+        Street = "Vatroslava Lisinskog 8",
+        City = "Belgrade",
+        PostalCode = "11000",
+        State = "Serbia"
+    },
+    ThesisTopic = "The Greatness of David",
+    Advisor = "Dr. Art",
+    ElectiveGrades = new List<Grade>
+    {
+        new Grade
+        {
+            Subject = new ElectiveSubject { SubjectName = "Painting" },
+            Score = 100
+        },
+        new Grade
+        {
+            Subject = new ElectiveSubject { SubjectName = "Sculpture" },
+            Score = 100
+        }
+    }
+};
+        studentCrew[2] = new MasterStudent()
+{
+    FirstName = "Igor",
+    LastName = "Stojanovic",
+    Gender = Gender.Male,
+    StudentId = 3,
+    Studies = "Economics",
+    YearLevel = 2,
+    Address = new PostalAddress()
+    {
+        Street = "Mariahilferstrasse",
+        City = "Vienna",
+        PostalCode = "2809",
+        State = "Austria"
+    },
+    ThesisTopic = "IFRS 17",
+    Advisor = "Dr. Economy",
+    ElectiveGrades = new List<Grade>
+    {
+        new Grade
+        {
+            Subject = new ElectiveSubject { SubjectName = "Taxation" },
+            Score = 93
+        },
+        new Grade
+        {
+            Subject = new ElectiveSubject { SubjectName = "Quantitative Finance" },
+            Score = 92
+        }
+    }
+};
+     
+    }
+    private void ShowElectiveSubjectsAndGrades(MasterStudent student)
+    {
+        selectedStudent = student;
+    }
+    
 }
