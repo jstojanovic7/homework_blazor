@@ -1,0 +1,93 @@
+@page "/01MasterStudents"
+
+@using DSS.Models;
+
+<PageTitle>Master Students</PageTitle>
+<h1>Master Students</h1>
+<br />
+<table>
+    <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Gender</th>
+            <th>Street</th>
+            <th>City</th>
+            <th>Postal Code</th>
+            <th>State</th>
+            <th>Student ID</th>
+            <th>Studies</th>
+            <th>Year Level</th>
+            <th>Thesis Topic</th>
+            <th>Advisor</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (MasterStudent ms in studentCrew)
+        {
+            <tr>
+                <td>@ms.FirstName</td>
+                <td>@ms.LastName</td>
+                <td>@ms.Gender</td>
+                <td>@ms.Address.Street</td>
+                <td>@ms.Address.City</td>
+                <td>@ms.Address.PostalCode</td>
+                <td>@ms.Address.State</td>
+                <td>@ms.StudentId</td>
+                <td>@ms.Studies</td>
+                <td>@ms.YearLevel</td>
+                <td>@ms.ThesisTopic</td>
+                <td>@ms.Advisor</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@message
+
+@code {
+
+    private string message = "";
+
+    private MasterStudent[] studentCrew = new MasterStudent[3];
+
+    protected override async Task OnInitializedAsync()
+    {
+        studentCrew[0] = new MasterStudent()
+        {
+            FirstName = "Jovan",
+            LastName = "Stojanovic",
+            StudentId = 1,
+            Studies = "Business Informatics",
+            Address = new PostalAddress()
+            {
+                Street = "Sunset Boulevard 34"
+            }
+        };
+        studentCrew[1] = new MasterStudent()
+        {
+            FirstName = "Rastko",
+            LastName = "Bojovic",
+            StudentId = 2,
+            Studies = "Business Informatics",
+            Address = new PostalAddress()
+            {
+                Street = "Sunset Boulevard 34"
+            }
+        };
+        studentCrew[2] = new MasterStudent()
+        {
+            FirstName = "Aleksandra",
+            LastName = "Antonijevic",
+            StudentId = 3,
+            Studies = "Business Informatics",
+            Address = new PostalAddress()
+            {
+                Street = "Sunset Boulevard 34"
+            }
+        };
+
+    }
+
+}
