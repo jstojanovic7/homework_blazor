@@ -1,7 +1,7 @@
 {
   "entryAssembly": "01a-simple-bootstrap",
   "resources": {
-    "hash": "sha256-2VDpTnMDAnG0WGy1z/jwwK2Z9T4hitkLFBWg+g7JmEU=",
+    "hash": "sha256-+jAwag079Pu9He8hYhFPgq6kItXewTHHWKcyKqKq/Rs=",
     "runtime": {
       "dotnet.7.0.14.1reck2t6ut.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -203,10 +203,10 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "01a-simple-bootstrap.dll": "sha256-gvQS6Bxisfbc/TOZoysBHT+/f8RKa5JoyumZerP9BKA="
+      "01a-simple-bootstrap.dll": "sha256-C1ZLQKhYsRLCphF3iz6/kmfRQJKPtyCqo220+AwqiaU="
     },
     "pdb": {
-      "01a-simple-bootstrap.pdb": "sha256-8st/KY5pSanWoN55B0zuFljTcEc1meWpD/iF1zxzEGU="
+      "01a-simple-bootstrap.pdb": "sha256-hgbYfcCpGbFzwokI0wuHKsDlO3BHy5e+tfbWzP48+TQ="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

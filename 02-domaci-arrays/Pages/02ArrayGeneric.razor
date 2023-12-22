@@ -1,0 +1,62 @@
+@page "/02ArrayGeneric"
+
+@using DSS.Helpers
+@using System.Linq
+
+<PageTitle>Arrays - Closest and Farthest from avg</PageTitle>
+<h1>Arrays - Closest and Farthest from avg</h1>
+
+<div>
+    <label for="inputArray">Enter Array Elements (comma-separated):</label>
+    <input id="inputArray" @bind="inputArrayString" />
+    <button @onclick="Execute">Do It!</button>
+</div>
+
+<br />
+Output:
+<br />
+<div style="border: solid; border-color: black">
+    <pre>@message</pre>
+</div>
+
+@code {
+    private string inputArrayString = "";
+    private string message = "";
+
+    private void Execute()
+    {
+        double[] inputArray;
+
+        try
+        {
+            inputArray = inputArrayString
+                .Split(',')
+                .Select(s => double.Parse(s.Trim()))
+                .ToArray();
+        }
+        catch (FormatException)
+        {
+            message = "Invalid array format. Please enter valid numeric values separated by commas.";
+            return;
+        }
+
+        if (inputArray.Length == 0)
+        {
+            message = "Array cannot be empty.";
+            return;
+        }
+
+        // Use the ArrayGeneric helper class
+        double average = ArrayGeneric.CalculateAverage(inputArray);
+        int closestIndex = ArrayGeneric.IndexOfClosestToAverage(inputArray);
+        int farthestIndex = ArrayGeneric.IndexOfFarthestFromAverage(inputArray);
+
+        double closestElement = inputArray[closestIndex];
+        double farthestElement = inputArray[farthestIndex];
+
+        message = $"Input Array: {ArrayDomaci.ElementsToString(inputArray)}{Environment.NewLine}";
+        message += $"Average: {average}{Environment.NewLine}";
+        message += $"Element Closest to Average: {closestElement} (Index: {closestIndex}){Environment.NewLine}";
+        message += $"Element Farthest from Average: {farthestElement} (Index: {farthestIndex}){Environment.NewLine}";
+    }
+}
